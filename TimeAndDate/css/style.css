@@ -1,0 +1,12 @@
+.container {
+  font-family: arial;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  width: 340px;
+  padding: 10px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-raduis: 10px;
+  border-radius: 10px;
+}
