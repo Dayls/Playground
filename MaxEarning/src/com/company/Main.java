@@ -29,7 +29,6 @@ public class Main {
 
         for(currentPrice = firstPoint.getY(); currentPrice <= secondPoint.getY(); currentPrice++) {
             currentDemand = calculateDemand(mCoefficient, b, currentPrice);
-            System.out.print(currentDemand + " ");
             currentProfit = currentDemand * currentPrice;
 
             if(currentProfit > previousProfit) {
