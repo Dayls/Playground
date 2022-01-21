@@ -1,0 +1,54 @@
+/* body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+} */
+
+@font-face {
+  font-family: Roboto;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+}
+/*
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}*/
+
+/*
+body {
+    background-color: #e9c46a !important;
+}
+*/
+.navbar {
+  background-color: #2a9d8f;
+}
+
+.navbar-brand {
+  color: #264653;
+  /* padding-left: 45%; */
+  /* text-align: center !important; */
+  font-size: 30pt !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.clock {
+}
+
+.clock-face {
+  width: 20% !important;
+  height: 20% !important;
+  transform: translateY();
+}
+
+.clock-second-hand {
+  /*width: 20% !important;
+    height: 20% !important;
+}
+
+.clock-minute-hand {
+    width: 20% !important;
+    height: 20% !important;*/
+}
+
+.clock-hour-hand {
+}
