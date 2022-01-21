@@ -35,16 +35,13 @@ body {
 }
 
 .clock-face {
-  width: 50%;
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  /* position: static !important; */
-  /* transform: translateX(100vh); */
-  /* transform: translateY(50vh); */
+  max-width: 250px !important;
 }
 
 .clock-second-hand {
