@@ -32,6 +32,7 @@ body {
 }
 
 .clock {
+
 }
 
 .clock-face {
@@ -45,14 +46,33 @@ body {
 }
 
 .clock-second-hand {
-  /*width: 20% !important;
-    height: 20% !important;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 250px !important;
+
 }
 
 .clock-minute-hand {
-    width: 20% !important;
-    height: 20% !important;*/
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 250px !important;
+
 }
 
 .clock-hour-hand {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 250px !important;
 }
